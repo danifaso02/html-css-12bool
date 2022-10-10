@@ -1,0 +1,36 @@
+/*----------------
+OFFSET
+----------------*/
+.offset1{
+    margin-left: calc(100% / 12 * 11);
+}
+.offset2{
+    margin-left: calc(100% / 12 * 10);
+}
+.offset3{
+    margin-left: calc(100% / 12 * 9);
+}
+.offset4{
+    margin-left: calc(100% / 12 * 8);
+}
+.offset5{
+    margin-left: calc(100% / 12 * 7);
+}
+.offset6{
+    margin-left: calc(100% / 12 * 6);
+}
+.offset7{
+    margin-left: calc(100% / 12 * 5);
+}
+.offset8{
+    margin-left: calc(100% / 12 * 4);
+}
+.offset9{
+    margin-left: calc(100% / 12 * 3);
+}
+.offset10{
+    margin-left: calc(100% / 12 * 2);
+}
+.offset11{
+    margin-left: calc(100% / 12 * 1);
+}

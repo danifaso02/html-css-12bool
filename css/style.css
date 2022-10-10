@@ -7,5 +7,68 @@ RESET
     padding: 0;
 }
 /*----------------
+CONTAINER
+----------------*/
+.container{
+    /* background-color: red; */
+    max-width: 87.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------
 MAIN
 ----------------*/
+.row{
+    display: flex;
+    flex: wrap;
+}
+.col-1{
+    background-color: #006cfa;
+    width: calc(100% / 12);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-2{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 2);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-5{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 5);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-12{
+    background-color: #006cfa;
+    width: calc(100%);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-8{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 8);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-6{
+    background-color: #006cfa;
+    width: calc(100% / 2);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.row1{
+    background-color: #006cfa;
+    display: flex;
+    flex: wrap;
+}
+.nested{
+    background-color: #00e165;
+}

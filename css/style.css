@@ -14,6 +14,8 @@ CONTAINER
     max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
 }
 /*----------------
 MAIN
@@ -59,16 +61,91 @@ MAIN
 }
 .col-6{
     background-color: #006cfa;
-    width: calc(100% / 2);
+    width: calc(100% / 12 * 6);
     text-align: center;
     color: white;
     border: 1px solid;
 }
 .row1{
-    background-color: #006cfa;
     display: flex;
     flex: wrap;
 }
 .nested{
     background-color: #00e165;
+    border: .0625rem solid #006cfa;
+    padding: .625rem;
+
+}
+.col-11{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 11);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-10{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 10);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-3{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 3);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-9{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 9);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-4{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 4);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.col-7{
+    background-color: #006cfa;
+    width: calc(100% / 12 * 7);
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+/*----------------
+MAIN
+----------------*/
+.offset1{
+    margin-left: calc(100% / 12 * 11);
+}
+.offset2{
+    margin-left: calc(100% / 12 * 10);
+}.offset3{
+    margin-left: calc(100% / 12 * 9);
+}.offset4{
+    margin-left: calc(100% / 12 * 8);
+}.offset5{
+    margin-left: calc(100% / 12 * 7);
+}.offset6{
+    margin-left: calc(100% / 12 * 6);
+}.offset7{
+    margin-left: calc(100% / 12 * 5);
+}.offset8{
+    margin-left: calc(100% / 12 * 4);
+}.offset9{
+    margin-left: calc(100% / 12 * 3);
+}.offset10{
+    margin-left: calc(100% / 12 * 2);
+}.offset11{
+    margin-left: calc(100% / 12 * 1);
+}
+
+.row > div{
+    padding: .625rem;
 }
